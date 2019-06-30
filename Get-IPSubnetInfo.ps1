@@ -202,7 +202,6 @@ function Get-IPSubnetInfo
 
                 $MaskLength = 0
 
-
                 for ($i = 0; $i -lt $MaskBytes.Length; $i++)
                 {
                     if ($MaskBytes[$i] -eq 255) 
@@ -239,7 +238,3 @@ function Get-IPSubnetInfo
 		
     }
 }
-
-
-
-
